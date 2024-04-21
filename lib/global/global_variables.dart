@@ -1,0 +1,22 @@
+import 'package:vendorapp/admin/adminmodels/CategoryList.dart';
+import 'package:vendorapp/admin/adminmodels/NewProduct.dart';
+import 'package:vendorapp/admin/adminmodels/ProductsNew.dart';
+import 'package:vendorapp/admin/adminmodels/dealsadminmodel.dart';
+import 'package:vendorapp/admin/adminmodels/notifiationsadmin.dart';
+import 'package:vendorapp/admin/adminmodels/searchadmin.dart';
+import 'package:vendorapp/models/newnotifications.dart';
+import 'package:vendorapp/models/notificationsmodel.dart';
+import 'package:vendorapp/models/product_category.dart';
+import 'package:vendorapp/models/product_details.dart';
+import 'package:vendorapp/models/searchVendor.dart';
+
+List<ProductCategory> productCategories = [];
+List<NotificationsModel> notifications = [];
+List<Transaction> adminsearch = [];
+List<Notificationdata> adminnotifications = [];
+List<Deals> adminalldeals = [];
+List<NewProducts> adminproducts = [];
+List<VendorNotificationData> newnotifications = [];
+List<SearchVendorClass> vendorsearchresult = [];
+List<AdminCatagoryListModel> adminallcategories = [];
+List<ProductDetails> productDetailList = [];
